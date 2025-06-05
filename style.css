@@ -1,8 +1,11 @@
-* {
+*, *::before, *::after {
 
    font-family: "Raleway", serif;
    font-optical-sizing: auto;
    font-style: normal;
+   margin:  0;
+   padding: 0;
+   box-sizing: border-box;
 
 }
 
