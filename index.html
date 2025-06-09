@@ -7,7 +7,7 @@
   <title>Nike</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700">
   <link rel="stylesheet" href="style/style.css">
-  <script src="/js/" defer></script>
+  <script src="js/mein.js" defer></script>
 
 </head>
 
@@ -17,7 +17,7 @@
     <section class="navigation-menu">
 
       <div class="navigaton"> 
-        <img src="images/logo.png">
+        <img src="images/logo.svg">
           <ul class="nav">
             <li><a href="">Home</a></li>
             <li><a href="">Product</a></li>
@@ -42,7 +42,7 @@
               <h1 class="h1-screen">Walk the line.</h1>
               <p class="p-second">Now that you have a ready strategy to move forward. It's time to come up with some
                 ideas
-              <p class="p-second">Now that you have a <span class="span"> ready strategy</span> to move forward</p>
+              <p class="p-second">Now that you have a <span class="tooltip" data-tooltip="strategy for the development of sports"><a class="span"> ready strategy</a> to move forward</span></p>
               <div class="button">
                 <button class="green-button">SHOP NOW</button>
                 <button class="white-button">LEARN MORE</button>
@@ -63,6 +63,7 @@
                     <img src="images/sneaker3.svg" alt="">
                     <img src="images/sneaker2.svg" alt="">
                     <img src="images/sneaker1.svg" alt="">
+                    </div>
                   </div>
                 </div>
               </div>
@@ -140,7 +141,14 @@
         <div class="rectangle-form">
           <h1>Get started now</h1>
           <p>Now that you have a ready strategy to move forward. It's time to come up with some ideas</p>
-          <button class="green-button">subscribe</button>
+            <button type="button" class="btn--open">Subscribe</button>
+
+    <div class="modal">
+        <div class="modal__wrapper">
+            <h2 class="modal__title">Вы подписаны </h2>
+            <span class="close-button">&times;</span> 
+        </div>
+    </div>
         </div>
       </div>
     </div>
